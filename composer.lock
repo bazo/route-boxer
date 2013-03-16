@@ -1,5 +1,5 @@
 {
-    "hash": "1a2ca2998cd1140f57b485a2eb068057",
+    "hash": "51bd2d7afcb4b897a93cf0c161ddc2b9",
     "packages": [
         {
             "name": "geokit/geokit",
@@ -93,57 +93,6 @@
                 "http client"
             ],
             "time": "2013-02-19 00:26:38"
-        },
-        {
-            "name": "nette/tester",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/tester.git",
-                "reference": "523bd9930485c690e50db592034d412f3bf35abe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/tester/zipball/523bd9930485c690e50db592034d412f3bf35abe",
-                "reference": "523bd9930485c690e50db592034d412f3bf35abe",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "bin": [
-                "Tester/tester"
-            ],
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "Tester/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause",
-                "GPL-2.0",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "David Grudl",
-                    "homepage": "http://davidgrudl.com"
-                },
-                {
-                    "name": "Nette Community",
-                    "homepage": "http://nette.org/contributors"
-                }
-            ],
-            "description": "An easy-to-use PHP Unit Testing framework.",
-            "homepage": "http://nette.org",
-            "keywords": [
-                "nette",
-                "testing",
-                "unit"
-            ],
-            "time": "2013-03-14 02:11:44"
         }
     ],
     "packages-dev": null,
