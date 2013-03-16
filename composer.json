@@ -1,0 +1,12 @@
+{
+	"require": {
+        "php": ">= 5.4.0",
+		"geokit/geokit": "dev-master",
+		"nette/tester": "dev-master"
+    },
+	"autoload": {
+        "psr-0": {
+            "GeoTools": "src/"
+        }
+    }		
+}
