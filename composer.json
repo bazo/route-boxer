@@ -1,27 +1,24 @@
 {
 	"name": "bazo/geotools",
-    "type": "library",
-    "description": "Geo Tools for PHP 5.4",
-    "keywords": ["geo", "geometry", "geocoding", "route boxing"],
-    "homepage": "https://github.com/bazo/route-boxer",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Martin Bažík",
-            "email": "martin@bazo.sk",
-            "homepage": "http://bazo.sk"
-        }
+	"type": "library",
+	"description": "Geo Tools for PHP 5.4",
+	"keywords": ["geo", "geometry", "geocoding", "route boxing"],
+	"homepage": "https://github.com/bazo/route-boxer",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Martin Bažík",
+			"email": "martin@bazo.sk",
+			"homepage": "http://bazo.sk"
+		}
 	],
 	"require": {
-        "php": ">= 5.4.0",
+		"php": ">= 5.4.0",
 		"geokit/geokit": "dev-master"
-    },
-	"require-dev": {
-		"nette/tester": "dev-master"
 	},
 	"autoload": {
-        "psr-0": {
-            "GeoTools": "src/"
-        }
-    }		
+		"psr-0": {
+			"GeoTools": "src/"
+		}
+	}
 }

@@ -1,6 +1,6 @@
 <?php
 
-include '/../vendor/autoload.php';
+$autoload = require __DIR__ . '/../vendor/autoload.php';
 
 $points = [
 	[48.167, 17.104],
@@ -12,9 +12,11 @@ $points = [
 
 $collection = new GeoTools\LatLngCollection($points);
 
-$boxer = new \GeoTools\RouteBoxer();
+$boxer = new GeoTools\RouteBoxer();
 
 $boxes = $boxer->box($collection, 10);
 
 echo count($boxes) === 19 ? 'pass' : 'fail';
 echo "\n";
+
+var_dump($boxes);
