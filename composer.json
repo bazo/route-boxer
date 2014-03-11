@@ -16,6 +16,9 @@
 		"php": ">= 5.4.0",
                 "geokit/geokit": "0.1.0"		
 	},
+	"replace": {
+		"bazo/geotools": "*"
+	}
 	"autoload": {
 		"psr-0": {
 			"GeoTools": "src/"
