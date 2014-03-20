@@ -10,7 +10,7 @@ http://gmaps-utility-library-dev.googlecode.com/svn/trunk/routeboxer/src/RouteBo
 add this line to your composer.json
 
 ````
-"bazo/geotools" : "@dev"
+"bazo/geotools" : "v0.1.0"
 ````
 
 run composer install

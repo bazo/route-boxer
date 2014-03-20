@@ -1,5 +1,5 @@
 {
-	"name": "bazo/geotools",
+	"name": "rodgermd/geotools",
 	"type": "library",
 	"description": "Geo Tools for PHP 5.4",
 	"keywords": ["geo", "geometry", "geocoding", "route boxing"],
@@ -14,7 +14,10 @@
 	],
 	"require": {
 		"php": ">= 5.4.0",
-		"geokit/geokit": "dev-master"
+                "geokit/geokit": "0.1.0"		
+	},
+	"replace": {
+		"bazo/geotools" : "*"
 	},
 	"autoload": {
 		"psr-0": {
